@@ -1,10 +1,11 @@
 import React from "react";
-import { SlackClone } from "./slack-clone";
+import { NotFoundPage } from "./not-found-page";
+import { LandingPage } from "./landing-main-page/landing-page";
 
 function App() {
   return (
     <div className="App">
-      <SlackClone />
+      <LandingPage />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export const SlackClone = () => (
+export const NotFoundPage = () => (
   <div className="gradient text-white min-h-screen flex items-center">
     <div className="container mx-auto p-4 flex flex-wrap items-center">
       <div className="w-full md:w-5/12 text-center p-4">
