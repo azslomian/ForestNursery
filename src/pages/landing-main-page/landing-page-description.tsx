@@ -9,7 +9,7 @@ export const LandingPageDescription = () => (
           Welcome to Forest Nursery - Shop created just for You
         </h1>
 
-        <p className="text-green-800 md:text-xl md:pr-48">
+        <p className="text-white md:text-xl md:pr-48">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
           vitae corrupti asperiores veritatis dolorum, commodi aperiam
           enim.
