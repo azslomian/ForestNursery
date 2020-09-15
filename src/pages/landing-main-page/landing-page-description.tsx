@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Button } from "../../components/button";
 
 export const LandingPageDescription = () => (
   <div className = "landing-page-description">
@@ -14,12 +15,7 @@ export const LandingPageDescription = () => (
           vitae corrupti asperiores veritatis dolorum, commodi aperiam
           enim.
         </p>
-
-        <a
-          href="#"
-          className="mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-red-500 hover:bg-red-600 rounded-lg shadow"
-          >Get Started</a
-        >
+        <Button title='Get Started' color='bg-red-500' type='red'/>
       </div>
   </div>
 );

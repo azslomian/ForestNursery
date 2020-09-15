@@ -5,10 +5,9 @@ export const NavButton = ({ title, href = '#', color = 'text-gray-500', bald = t
     <a
         href={href}
         className={`inline-block py-1 md:py-4 
-                ${color} 
-                hover:${hoverColor}
-                mr-${marginRight} 
-                ${bald === true ? 'font-bold' : ''}`}
-    >{title}</a
-    >
+        ${color} 
+        hover:${hoverColor}
+        mr-${marginRight} 
+        ${bald === true ? 'font-bold' : ''}`}>{title}
+    </a>
 );

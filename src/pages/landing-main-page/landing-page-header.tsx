@@ -4,7 +4,7 @@ import { Button } from "../../components/button";
 
 export const LandingPageHeader = () => (
 <div>
-    <div className="bg-green-900 px-4 py-4">
+    <div className="bg-indigo-800 px-4 py-4">
       <div
         className="md:max-w-6xl md:mx-auto md:flex md:items-center md:justify-between"
       >
