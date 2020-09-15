@@ -20,11 +20,16 @@ var products: { displayName: string, price: number, imageUrl: string }[] = [
 ]; 
 
 export const ShopPage = () => (
-    <div style = {container}>
-        <ul>
-            {products.map((product) => {        
-                return <li><Product displayName={product.displayName} price={product.price} imageUrl={product.imageUrl}/></li>
-            })}
-        </ul>
+    <div className='daily-deals'>
+        <h1 className="font-bold text-center mb-8 text-grey-100 text-2xl md:text-5xl leading-tight" >
+          Today's Deals
+        </h1>
+        <div style = {container}>
+            <ul>
+                {products.map((product) => {        
+                    return <li><Product displayName={product.displayName} price={product.price} imageUrl={product.imageUrl}/></li>
+                })}
+            </ul>
+        </div>
     </div>
 );

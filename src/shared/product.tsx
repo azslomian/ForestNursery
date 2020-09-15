@@ -11,7 +11,7 @@ export const Product = ({ displayName, price, imageUrl}: ProductProps) => (
             <div className="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
                 <div className="py-2 text-center font-bold uppercase tracking-wide text-gray-800">{displayName}</div>
                 <div className="flex items-center justify-between py-2 px-3 bg-gray-400">
-                <h1 className="text-gray-800 font-bold ">${price}</h1>
+                <h1 className="text-gray-800 font-bold ">${price.toFixed(2)}</h1>
                 <button className=" bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">Add to cart</button>
                 </div>
             </div>
