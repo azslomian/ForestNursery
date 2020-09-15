@@ -1,8 +1,17 @@
 import * as React from "react";
+import { Product } from "../../shared/product";
 
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-
+var container: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-end'  
+}
 
 export const ShopPage = () => (
-    <div />
-  );
+    <div style = {container}>
+        <Product></Product>
+        <Product></Product>
+        <Product></Product>
+        <Product></Product>
+    </div>
+);
